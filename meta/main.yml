@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: namelivia.notifications
+  role_name: namelivia.notifications-service
   author: José Ignacio Amelivia Santiago <jignacio.amelivia@gmail.com>
   description: Ansible role I use to install and configure namelivia/notifications-service
   license: GPLv2

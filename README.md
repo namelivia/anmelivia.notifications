@@ -11,7 +11,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/namelivia.notifications
+  - src: https://github.com/namelivia/namelivia.notifications-service
 ```
 
 ## Required variables
