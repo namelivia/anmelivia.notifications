@@ -1,4 +1,13 @@
 ---
+- name: 'Check mandatory variables are defined'
+  assert:
+    that:
+      - application_name is defined
+      - cloudwatch_region is defined
+      - cloudwatch_log_group is defined
+      - notifications_telegram_api_id is defined
+      - notifications_telegram_chat_id is defined
+
 - name: Create app container
   docker_container:
     name: "{{application_name}}"
