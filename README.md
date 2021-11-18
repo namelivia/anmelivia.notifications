@@ -11,7 +11,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/namelivia.notifications-service
+  - src: https://github.com/namelivia/ansible-notifications-service
 ```
 
 ## Required variables
