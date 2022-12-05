@@ -25,6 +25,8 @@
       - name: "pomerium"
     exposed_ports:
       - "80"
+    published_ports:
+      - "0.0.0.0:9000:80"  # map the port to the host's 9000 port
     env:
       TELEGRAM_API_ID: "{{ notifications_telegram_api_id }}"
       TELEGRAM_CHAT_ID: "{{ notifications_telegram_chat_id }}"
