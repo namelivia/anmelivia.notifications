@@ -19,3 +19,8 @@ roles:
  - `cloudwatch_log_group` Cloudwatch log group to send the logs to.
  - `notifications_telegram_api_id` Your telegram API ID.
  - `notifications_telegram_chat_id` The chat id you are sending your notifications to.
+ - 
+# IMPORTANT
+
+This project is not maintained anymore and the repository is being archived. The reason why is because this was trying to implement what [Apprise](https://github.com/caronc/apprise) is already doing.
+So use [Apprise](https://github.com/caronc/apprise) instead, since it is a more mature project.
